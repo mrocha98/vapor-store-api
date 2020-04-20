@@ -1,0 +1,40 @@
+{
+  "name": "vapor-store-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "WTFPL",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "http-status-codes": "^1.4.0",
+    "morgan": "^1.10.0"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "cross-env NODE_ENV=dev nodemon ./src/server.js --ignore __tests__",
+    "test": "cross-env NODE_ENV=test jest"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "faker": "^4.1.0",
+    "jest": "^25.4.0",
+    "nodemon": "^2.0.3",
+    "prettier": "^2.0.4",
+    "prettier-standard": "^16.2.1",
+    "supertest": "^4.0.2"
+  },
+  "engines": {
+    "node": "~12.16.2",
+    "yarn": "~1.22.4"
+  }
+}
