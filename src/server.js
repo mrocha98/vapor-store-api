@@ -1,6 +1,8 @@
 const app = require('./app')
 
-console.log('========\tVAPOR STORE\t========')
-console.log('Server listening on...\t3333')
+const port = process.env.PORT || 3333
 
-app.listen(3333)
+console.log('========\tVAPOR STORE\t========')
+console.log(`Server listening on...\t${port}`)
+
+app.listen(port)
