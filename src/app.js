@@ -11,8 +11,7 @@ class App {
     this.whiteList = [
       'http://localhost:3000',
       'http://localhost:5000',
-      'http://mrocha98.github.io/vapor-store',
-      'https://mrocha98.github.io/vapor-store',
+      'https://vapor-store.now.sh',
     ]
 
     this.middlewares()
