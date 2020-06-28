@@ -2,7 +2,7 @@
   "name": "vapor-store-api",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "WTFPL",
+  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "cross-env": "^7.0.2",
