@@ -30,7 +30,7 @@
     "jest": "^25.4.0",
     "nodemon": "^2.0.3",
     "prettier": "^2.0.4",
-    "prettier-standard": "^16.2.1",
+    "prettier-standard": "^16.4.1",
     "supertest": "^4.0.2"
   },
   "engines": {
